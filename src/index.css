@@ -14,8 +14,11 @@ font-family: 'Roboto', sans-serif; */
   --color-primary-lightest: #0ca678;
   --color-light: #fff;
   --color-grey-light: #efefef;
+  --color-grey-lightest: #f4f4f4;
+  --color-grey-lightest-1: #ededed;
   --color-slate-darkest: #161616;
   --color-slate-dark: #484848;
+  --color-slate-dark-1: #777777;
   --color-slate-light: #c1c1c1;
   --color-slate-medium: #a0a0a0;
   /* --box-shadow: 0 2rem 3rem -1.5rem rgb(17, 34, 64); */
@@ -48,6 +51,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Roboto', sans-serif;
   color: var(--color-slate-darkest);
   font-weight: 500;
 }
