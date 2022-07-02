@@ -3,6 +3,7 @@ import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 import iconCalendar from '../../assets/Calander.png';
 import iconEmail from '../../assets/icon_email.png';
+import iconUpDown from '../../assets/icon_updown.png';
 import './HeroSection.css';
 
 const HeroSection = () => {
@@ -32,6 +33,7 @@ const HeroSection = () => {
             </div>
           </div>
           <form className="form-container">
+            <img src={iconUpDown} alt="updown-icon" className="updown-icon" />
             <div className="form-control">
               <label>
                 <span>From</span>

@@ -75,6 +75,16 @@
   font-weight: 700;
 }
 
+.form-container {
+  position: relative;
+}
+
+.updown-icon {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
 .form-control {
   margin: 0 2.8rem;
   border-bottom: 1px solid var(--color-grey-lightest-1);
