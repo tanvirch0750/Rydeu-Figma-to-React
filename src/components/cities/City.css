@@ -1,0 +1,37 @@
+.cities {
+  margin-bottom: 9.6rem;
+}
+
+.cities h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 34px;
+  color: var(--color-slate-dark);
+  margin-bottom: 2.8rem;
+}
+
+.cities-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  align-items: start;
+  grid-gap: 2.4rem;
+}
+
+.city {
+  height: 17rem;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: var(--color-light);
+}
