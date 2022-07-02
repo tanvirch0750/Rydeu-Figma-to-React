@@ -1,0 +1,97 @@
+.city-details-menu {
+  margin-bottom: 6.4rem;
+}
+
+.city-details-section {
+  padding-bottom: 9.6rem;
+}
+
+.city-details-menu ul {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.city-details-menu ul li {
+  font-size: 1.2rem;
+  font-family: 'Lato';
+  font-weight: 400;
+  color: #b9b9b9;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.city-details-menu-active,
+.city-details-menu ul li:hover {
+  color: #484848 !important;
+}
+
+.city-details-tab {
+  display: flex;
+}
+
+.sidebar-tab {
+  width: 22%;
+}
+
+.sidebar-tab ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+  margin-left: 2rem;
+}
+
+.sidebar-tab ul li {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #898989;
+  list-style-type: disc;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.sidebar-tab-active,
+.sidebar-tab ul li:hover {
+  color: var(--color-secondary) !important;
+  font-size: 1.6rem !important;
+  list-style-type: circle !important;
+}
+
+.tab-details {
+  width: 78%;
+}
+
+.tab-details p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #484848;
+}
+
+.text-img-right {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  align-items: center;
+  gap: 3.2rem;
+  padding: 2.4rem 0;
+}
+
+.tab-details figcaption {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #737373;
+  margin-top: 1rem;
+}
+
+.tab-details figcaption span {
+  color: #2a6e95;
+}
+
+.text-img-left {
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  align-items: center;
+  gap: 3.2rem;
+  padding: 2.4rem 0;
+}
